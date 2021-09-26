@@ -38,7 +38,7 @@ class Sales_data
 public:
     // other members and constructors as before
     // declaration equivalent to the synthesized copy constructor
-    Sales_data(const Sales_data&);    
+    Sales_data(const Sales_data&);
 private:
     std::string bookNo;
     int units_sold = 0;
@@ -109,8 +109,7 @@ Sales_data& Sales_data::operator=(const Sales_data &rhs)
 {
     bookNo = rhs.bookNo;    // calls the string::operator=
     units_sold = rhs.units_sold;    // uses the built-in int assignment
-    revenue = rhs.revenue;  // uses the built-in double
-    assignment
+    revenue = rhs.revenue;  // uses the built-in double assignment
     return *this;   // return a reference to this object
 }
 ```
@@ -213,7 +212,7 @@ public:
         ps(new std::string(*p.ps)), i(p.i) { }
     HasPtr& operator=(const HasPtr &);
     ~HasPtr() { delete ps; }
-    
+
 private:
     std::string *ps;
     int i;
@@ -489,7 +488,7 @@ Foo z(std::move(x));    // copy constructor, because there is no move constructo
 ```c++
 // assignment operator is both the move- and copy-assignment operator
 HasPtr& operator=(HasPtr rhs)
-{ 
+{
     swap(*this, rhs);
     return *this;
 }

@@ -18,7 +18,7 @@
 
 [第6章 函数](https://github.com/czs108/Cpp-Primer-5th-Note-CN/tree/master/Chapter-6%20Functions)
 
-[第7章 类](https://github.com/czs108/Cpp-Primer-5th-Note-CN/tree/master/Chapter-7%20Classes)  
+[第7章 类](https://github.com/czs108/Cpp-Primer-5th-Note-CN/tree/master/Chapter-7%20Classes)
 
 ### 第II部分 C++标准库
 
@@ -30,7 +30,7 @@
 
 [第11章 关联容器](https://github.com/czs108/Cpp-Primer-5th-Note-CN/tree/master/Chapter-11%20Associative%20Containers)
 
-[第12章 动态内存](https://github.com/czs108/Cpp-Primer-5th-Note-CN/tree/master/Chapter-12%20Dynamic%20Memory)  
+[第12章 动态内存](https://github.com/czs108/Cpp-Primer-5th-Note-CN/tree/master/Chapter-12%20Dynamic%20Memory)
 
 ### 第III部分 类设计者的工具
 
@@ -40,7 +40,7 @@
 
 [第15章 面向对象程序设计](https://github.com/czs108/Cpp-Primer-5th-Note-CN/tree/master/Chapter-15%20Object-Oriented%20Programming)
 
-[第16章 模板与泛型编程](https://github.com/czs108/Cpp-Primer-5th-Note-CN/tree/master/Chapter-16%20Templates%20and%20Generic%20Programming)  
+[第16章 模板与泛型编程](https://github.com/czs108/Cpp-Primer-5th-Note-CN/tree/master/Chapter-16%20Templates%20and%20Generic%20Programming)
 
 ### 第IV部分 高级主题
 
@@ -49,3 +49,9 @@
 [第18章 用于大型程序的工具](https://github.com/czs108/Cpp-Primer-5th-Note-CN/tree/master/Chapter-18%20Tools%20for%20Large%20Programs)
 
 [第19章 特殊工具与技术](https://github.com/czs108/Cpp-Primer-5th-Note-CN/tree/master/Chapter-19%20Specialized%20Tools%20and%20Techniques)
+
+## 关于
+
+***GitHub***：https://github.com/czs108
+
+***E-Mail***：chenzs108@outlook.com
