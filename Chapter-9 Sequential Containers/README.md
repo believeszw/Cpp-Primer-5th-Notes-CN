@@ -248,10 +248,10 @@ svec.insert(svec.begin(), "Hello!");
 在新标准库中，接受元素个数或范围的`insert`版本返回指向第一个新增元素的迭代器，而旧版本中这些操作返回`void`。如果范围为空，不插入任何元素，`insert`会返回第一个参数。
 
 ```c++
-list<string> 1st;
-auto iter = 1st.begin();
+list<string> lst;
+auto iter = lst.begin();
 while (cin >> word)
-    iter = 1st.insert(iter, word);  // same as calling push_front
+    iter = lst.insert(iter, word);  // same as calling push_front
 ```
 
 新标准库增加了三个直接构造而不是拷贝元素的操作：`emplace_front`、`emplace_back`和`emplace`，其分别对应`push_front`、`push_back`和`insert`。当调用`push`或`insert`时，元素对象被拷贝到容器中。而调用`emplace`时，则是将参数传递给元素类型的构造函数，直接在容器的内存空间中构造元素。
